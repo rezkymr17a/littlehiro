@@ -1,0 +1,953 @@
+<!DOCTYPE html><html lang="id" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><title>Little Hiro Daycare &amp; Development Centre</title><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-background": "#181c23", "tertiary-fixed": "#ffdea3", "outline-variant": "#dcc0bd", "outline": "#89726f", "surface-tint": "#9d413a", "secondary-fixed-dim": "#a5d0b5", "inverse-surface": "#2c3038", "primary": "#9d413a", "surface-bright": "#f9f9ff", "primary-fixed-dim": "#ffb4ac", "tertiary-fixed-dim": "#edc065", "tertiary": "#7a5900", "primary-fixed": "#ffdad6", "on-error": "#ffffff", "error-container": "#ffdad6", "secondary": "#3f6750", "surface-container-lowest": "#ffffff", "on-surface": "#181c23", "surface-container-high": "#e5e8f3", "on-primary": "#ffffff", "surface-variant": "#dfe2ed", "inverse-on-surface": "#eef0fb", "inverse-primary": "#ffb4ac", "on-secondary-container": "#436b54", "surface-dim": "#d7dae4", "on-primary-container": "#621512", "surface-container-highest": "#dfe2ed", "on-primary-fixed-variant": "#7e2a25", "secondary-fixed": "#c1edd0", "on-secondary": "#ffffff", "on-tertiary-fixed": "#261900", "on-surface-variant": "#564240", "on-tertiary-fixed-variant": "#5d4200", "tertiary-container": "#bd943e", "surface": "#f9f9ff", "primary-container": "#e87a70", "background": "#f9f9ff", "surface-container": "#ebeef8", "on-tertiary-container": "#432f00", "on-error-container": "#93000a", "error": "#ba1a1a", "on-primary-fixed": "#410002", "on-secondary-fixed": "#002112", "on-tertiary": "#ffffff", "surface-container-low": "#f1f3fe", "on-secondary-fixed-variant": "#274e39", "secondary-container": "#beeacd" }, "borderRadius": { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, "spacing": { "margin-desktop": "2.5rem", "gutter-desktop": "2rem", "space-xl": "2.5rem", "margin": "1rem", "gutter": "1.25rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "space-sm": "0.5rem", "space-md": "1rem" }, "fontFamily": { "body-md": [ "Plus Jakarta Sans" ], "display": [ "Plus Jakarta Sans" ], "headline-lg": [ "Plus Jakarta Sans" ], "display-mobile": [ "Plus Jakarta Sans" ], "label-md": [ "Plus Jakarta Sans" ], "headline-md": [ "Plus Jakarta Sans" ], "title-md": [ "Plus Jakarta Sans" ], "body-sm": [ "Plus Jakarta Sans" ], "label-sm": [ "Plus Jakarta Sans" ], "headline-lg-mobile": [ "Plus Jakarta Sans" ], "headline-sm": [ "Plus Jakarta Sans" ], "label-lg": [ "Plus Jakarta Sans" ], "body-lg": [ "Plus Jakarta Sans" ] }, "fontSize": { "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "display": [ "48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "headline-lg": [ "32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "display-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" } ], "label-md": [ "12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" } ], "headline-md": [ "24px", { "lineHeight": "32px", "fontWeight": "600" } ], "title-md": [ "18px", { "lineHeight": "26px", "fontWeight": "600" } ], "body-sm": [ "13px", { "lineHeight": "20px", "fontWeight": "400" } ], "label-sm": [ "11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "500" } ], "headline-lg-mobile": [ "26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "700" } ], "headline-sm": [ "20px", { "lineHeight": "28px", "fontWeight": "600" } ], "label-lg": [ "14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" } ], "body-lg": [ "17px", { "lineHeight": "26px", "fontWeight": "400" } ] } } } };</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+</head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_4px_20px_rgba(45,49,57,0.04)]"><div class="bg-secondary-container/40 text-on-secondary-container px-4 py-1.5"><div class="max-w-7xl mx-auto flex items-center justify-center text-center font-label-sm text-label-sm"><span class="material-symbols-outlined text-secondary text-[14px] mr-1.5">location_on</span><span class="">Ruko Arcadia Grande, Gading Serpong, Tangerang • Jam Operasional: Senin - Sabtu 07.30 - 18.00 WIB</span></div></div><div class="h-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between gap-4"><a class="flex items-center gap-3 shrink-0 group" data-path="home" href="#"><img alt="Little Hiro Daycare Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Vt0fIzPPrfvB9mq_-G9fmlRnGVu4mLBq4KsLXdK9hKDGJTaFZ6t0KMCd5QcFQ1G3A2G17Nuz0U4MLLpuckui0AP3eIRgj_4konQis8xfZ_rQYD7TQTko2IrUzxUzIYViAU6KLEWN3vw_dasYf1vVHlmKGaFIiPJCioB1CGVn1UilzQYoAj6LkZ2Oj168Zxby6H7ujta0QvziG4GowbSGSAv44FXg-HHubYayOiBFxFmQ"><div class="flex flex-col"><span class="font-title-md text-title-md text-on-surface leading-tight tracking-tight group-hover:text-primary transition-colors">Little Hiro</span><span class="font-label-sm text-label-sm text-on-surface-variant leading-tight">Daycare &amp; Development Centre</span></div></a><nav class="hidden xl:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-low" data-active-classes="bg-primary-container text-on-primary-container rounded-full font-label-md"><a aria-current="page" class="px-3 py-1.5 transition-colors bg-primary-container text-on-primary-container rounded-full font-label-md" data-path="home" href="#">Home</a><a class="px-3 py-1.5 text-on-surface-variant font-label-md text-label-md rounded-full transition-colors hover:text-on-surface" data-path="tentang" href="#">Tentang</a><a class="px-3 py-1.5 text-on-surface-variant font-label-md text-label-md rounded-full transition-colors hover:text-on-surface" data-path="program-layanan" href="#">Program &amp; Layanan</a><a class="px-3 py-1.5 text-on-surface-variant font-label-md text-label-md rounded-full transition-colors hover:text-on-surface" data-path="tim" href="#">Tim</a><a class="px-3 py-1.5 text-on-surface-variant font-label-md text-label-md rounded-full transition-colors hover:text-on-surface" data-path="fasilitas" href="#">Fasilitas</a><a class="px-3 py-1.5 text-on-surface-variant font-label-md text-label-md rounded-full transition-colors hover:text-on-surface" data-path="testimoni" href="#">Testimoni</a><a class="px-3 py-1.5 text-on-surface-variant font-label-md text-label-md rounded-full transition-colors hover:text-on-surface" data-path="kontak" href="#">Lokasi &amp; Kontak</a></nav><div class="flex items-center gap-3 shrink-0"><a class="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-primary-container text-on-primary-container font-label-lg text-label-lg shadow-[0_4px_12px_rgba(232,122,112,0.2)] hover:bg-primary hover:text-on-primary transition-all duration-200 transform hover:-translate-y-0.5" href="https://wa.me/6285820069252" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[18px]">chat</span><span class="hidden sm:inline">Konsultasi via WhatsApp</span><span class="sm:hidden">WhatsApp</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- SECTION 1: HERO -->
+<section class="relative overflow-hidden bg-surface pb-16 sm:pb-24 pt-4 sm:pt-8" id="home">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Left Content -->
+<div class="lg:col-span-7 flex flex-col items-start z-10">
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary-container/60 text-on-secondary-container mb-6 shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified</span>
+<span class="font-label-lg text-label-lg">Daycare • Tumbuh Kembang • Psikologi • Pendidikan</span>
+</div>
+<h1 class="font-display text-display text-on-surface tracking-tight leading-tight mb-6">
+            Tempat Hiro Bertumbuh, <br class="hidden sm:inline">
+<span class="text-primary relative inline-block">
+              Belajar,
+              <svg class="absolute -bottom-2 left-0 w-full h-3 text-primary-fixed-dim -z-10" fill="none" viewBox="0 0 200 12" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 9C50 3 150 2 198 8" stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
+</svg>
+</span>
+            dan Berkembang
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-8 leading-relaxed">
+            Little Hiro hadir sebagai ruang yang nyaman untuk mendampingi setiap proses tumbuh kembang Hiro melalui daycare, stimulasi, terapi, psikologi, dan program pembelajaran terpadu di Gading Serpong.
+          </p>
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto mb-10">
+<a class="inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-full bg-primary-container text-on-primary-container font-label-lg text-label-lg shadow-[0_8px_20px_rgba(232,122,112,0.25)] hover:bg-primary hover:text-on-primary transition-all duration-200 transform hover:-translate-y-0.5" href="https://wa.me/6285820069252?text=Hallo%20Little%20Hiro,%20saya%20Mom/Dad%20ingin%20berkonsultasi" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="">Konsultasi via WhatsApp</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-full bg-secondary-container text-on-secondary-container font-label-lg text-label-lg hover:bg-secondary hover:text-on-secondary transition-all duration-200" href="#tentang">
+<span class="">Kenal Little Hiro</span>
+<span class="material-symbols-outlined text-[18px]">arrow_downward</span>
+</a>
+</div>
+<!-- Trust Proof / Metric Band -->
+<div class="grid grid-cols-3 gap-6 pt-6 border-t border-surface-container-high w-full max-w-lg">
+<div>
+<div class="font-headline-md text-headline-md text-on-surface font-bold">1:3</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Rasio Pengasuh Ideal</div>
+</div>
+<div>
+<div class="font-headline-md text-headline-md text-on-surface font-bold">100%</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Pantauan CCTV Real-time</div>
+</div>
+<div>
+<div class="font-headline-md text-headline-md text-on-surface font-bold">5 In 1</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Layanan Terpadu Terintegrasi</div>
+</div>
+</div>
+</div>
+<!-- Right Visual Showcase -->
+<div class="lg:col-span-5 relative">
+<div class="relative mx-auto max-w-md lg:max-w-none">
+<!-- Ambient backdrop glow -->
+<div class="absolute -inset-4 bg-gradient-to-tr from-primary-fixed/40 via-tertiary-fixed/30 to-secondary-fixed/40 rounded-3xl blur-2xl -z-10"></div>
+<div class="relative rounded-3xl overflow-hidden shadow-[0_16px_36px_rgba(45,49,57,0.08)] bg-surface-container-lowest">
+<img alt="Anak Hiro sedang bermain balok edukatif dengan riang gembira di Little Hiro Daycare" class="w-full h-[460px] object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWX2e-7nBkB5bxnpkhU2TPhVMrtIUBOxgs3xcJ61x_dryxNeGUv6XCAImR6b2Z8dR3RYXSOPHzflvorK8bR3S2PVyStWKdpGoVEF_yPC8KgkLTKaq0Qb2qAbxzuzfYWKSe5Zzsuhy5dg65e4DRQ0fxLGFxc1gAVIuf3kFusKOIcRQRt2657GIMrQdMJYMDnTctfd5hxsCNgD7JbbVPpCtrWX2K7N3GpLH-6TuUPHcr">
+<!-- Subtle gradient scrim at bottom of image -->
+<div class="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-on-surface/40 to-transparent"></div>
+</div>
+<!-- Floating Micro-Badge: Ratio -->
+<div class="absolute -bottom-5 left-4 sm:-left-6 bg-surface-container-lowest text-on-surface p-4 rounded-2xl shadow-[0_12px_28px_rgba(45,49,57,0.12)] flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[22px]">diversity_1</span>
+</div>
+<div>
+<p class="font-label-md text-label-md font-bold text-on-surface">Rasio Pendamping 1:3</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Perhatian penuh untuk setiap Hiro</p>
+</div>
+</div>
+<!-- Floating Micro-Badge: CCTV -->
+<div class="absolute top-6 -right-4 sm:-right-6 bg-surface-container-lowest text-on-surface px-4 py-3 rounded-2xl shadow-[0_12px_28px_rgba(45,49,57,0.12)] flex items-center gap-2.5">
+<span class="flex h-3 w-3 relative">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
+<span class="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
+</span>
+<div>
+<p class="font-label-md text-label-md font-bold text-on-surface">CCTV Real-Time</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Mom &amp; Dad tenang bekerja</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: TENTANG KAMI -->
+<section class="py-20 bg-surface-container-low" id="tentang">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<span class="px-3.5 py-1.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md uppercase tracking-wider">Mengenal Little Hiro</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-4 mb-4">Ruang Nyaman dengan Pendekatan Komprehensif</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          Setiap Hiro memiliki proses tumbuh kembang yang unik dan berbeda. Di Little Hiro, kami hadir untuk mendampingi setiap proses tersebut melalui lingkungan yang aman, aktivitas yang disesuaikan kebutuhan, serta bimbingan tenaga profesional berhati hangat.
+        </p>
+</div>
+<!-- 5 Integrated Approaches Bar -->
+<div class="bg-surface-container-lowest rounded-3xl p-6 sm:p-8 shadow-[0_4px_20px_rgba(45,49,57,0.04)]">
+<h3 class="font-title-md text-title-md text-on-surface text-center mb-6">Pendekatan Terintegrasi Little Hiro</h3>
+<div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+<div class="flex flex-col items-center text-center p-4 rounded-2xl bg-surface-container-low hover:bg-primary-fixed/30 transition-colors">
+<span class="material-symbols-outlined text-primary text-[32px] mb-2">child_care</span>
+<span class="font-label-lg text-label-lg text-on-surface">Daycare</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">Perawatan penuh kasih</span>
+</div>
+<div class="flex flex-col items-center text-center p-4 rounded-2xl bg-surface-container-low hover:bg-secondary-fixed/30 transition-colors">
+<span class="material-symbols-outlined text-secondary text-[32px] mb-2">toys</span>
+<span class="font-label-lg text-label-lg text-on-surface">Stimulasi</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">Sensori &amp; motorik</span>
+</div>
+<div class="flex flex-col items-center text-center p-4 rounded-2xl bg-surface-container-low hover:bg-tertiary-fixed/30 transition-colors">
+<span class="material-symbols-outlined text-tertiary text-[32px] mb-2">menu_book</span>
+<span class="font-label-lg text-label-lg text-on-surface">Pendidikan</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">Belajar lewat bermain</span>
+</div>
+<div class="flex flex-col items-center text-center p-4 rounded-2xl bg-surface-container-low hover:bg-primary-fixed/30 transition-colors">
+<span class="material-symbols-outlined text-primary text-[32px] mb-2">health_and_safety</span>
+<span class="font-label-lg text-label-lg text-on-surface">Terapi</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">Wicara &amp; okupasi</span>
+</div>
+<div class="col-span-2 md:col-span-1 flex flex-col items-center text-center p-4 rounded-2xl bg-surface-container-low hover:bg-secondary-fixed/30 transition-colors">
+<span class="material-symbols-outlined text-secondary text-[32px] mb-2">psychology</span>
+<span class="font-label-lg text-label-lg text-on-surface">Psikologi</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">Screening &amp; konseling</span>
+</div>
+</div>
+</div>
+<!-- Visi & Misi Split Bento -->
+
+<!-- Core Values Pills -->
+
+</div>
+</section>
+<!-- SECTION 3: PROGRAM & LAYANAN -->
+<section class="py-20 bg-surface" id="program">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<span class="px-3.5 py-1.5 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-md text-label-md uppercase tracking-wider">Kurikulum &amp; Layanan</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-4 mb-4">Program untuk Setiap Tahap Perkembangan Hiro</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          Kurikulum terintegrasi yang disesuaikan secara personal dengan usia biologis, minat, dan kecepatan bertumbuh setiap Hiro.
+        </p>
+</div>
+<!-- Grid of 6 Programs -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- 1. Daycare -->
+<div class="bg-surface-container-lowest rounded-3xl p-7 shadow-[0_4px_20px_rgba(45,49,57,0.04)] flex flex-col justify-between hover:shadow-[0_12px_28px_rgba(232,122,112,0.12)] transition-all">
+<div>
+<div class="flex items-center justify-between mb-4">
+<div class="w-12 h-12 rounded-2xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed">
+<span class="material-symbols-outlined text-[28px]">cottage</span>
+</div>
+<span class="px-3 py-1 rounded-full bg-primary-fixed-dim/40 text-on-primary-fixed-variant font-label-sm text-label-sm">3 Bulan - 6 Tahun</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Daycare Terpadu</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              Layanan daycare harian dengan nutrisi gizi seimbang, jadwal tidur teratur, stimulasi sensory rutin, pantauan CCTV, dan laporan milestone harian.
+            </p>
+<div class="space-y-1.5 mb-6">
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[16px]">done</span>
+<span class="">Infant, Toddler, &amp; Preschooler</span>
+</div>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[16px]">done</span>
+<span class="">Full Day &amp; Half Day Option</span>
+</div>
+</div>
+</div>
+<a class="w-full inline-flex items-center justify-center py-2.5 rounded-full bg-surface-container-low text-on-surface hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-colors" href="https://wa.me/6285820069252?text=Hallo%20Little%20Hiro,%20saya%20tertarik%20dengan%20Program%20Daycare" rel="noopener noreferrer" target="_blank">
+<span class="">Konsultasi Daycare</span>
+<span class="material-symbols-outlined text-[16px] ml-1.5">arrow_forward</span>
+</a>
+</div>
+<!-- 2. Terapi Tumbuh Kembang -->
+<div class="bg-surface-container-lowest rounded-3xl p-7 shadow-[0_4px_20px_rgba(45,49,57,0.04)] flex flex-col justify-between hover:shadow-[0_12px_28px_rgba(232,122,112,0.12)] transition-all">
+<div>
+<div class="flex items-center justify-between mb-4">
+<div class="w-12 h-12 rounded-2xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[28px]">clinical_notes</span>
+</div>
+<span class="px-3 py-1 rounded-full bg-secondary-fixed-dim/50 text-on-secondary-fixed-variant font-label-sm text-label-sm">1 - 8 Tahun</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Terapi Tumbuh Kembang</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              Intervensi terarah oleh terapis profesional bersertifikat untuk mendukung Hiro mengatasi kendala artikulasi bicara, fokus, sensory, dan perilaku.
+            </p>
+<div class="space-y-1.5 mb-6">
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[16px]">done</span>
+<span class="">Speech Therapy (Wicara)</span>
+</div>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[16px]">done</span>
+<span class="">Okupasi &amp; Sensory Integration (SI)</span>
+</div>
+</div>
+</div>
+<a class="w-full inline-flex items-center justify-center py-2.5 rounded-full bg-surface-container-low text-on-surface hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-colors" href="https://wa.me/6285820069252?text=Hallo%20Little%20Hiro,%20saya%20tertarik%20dengan%20Program%20Terapi" rel="noopener noreferrer" target="_blank">
+<span class="">Jadwal Asesmen Terapi</span>
+<span class="material-symbols-outlined text-[16px] ml-1.5">arrow_forward</span>
+</a>
+</div>
+<!-- 3. Konsultasi Psikologi -->
+<div class="bg-surface-container-lowest rounded-3xl p-7 shadow-[0_4px_20px_rgba(45,49,57,0.04)] flex flex-col justify-between hover:shadow-[0_12px_28px_rgba(232,122,112,0.12)] transition-all">
+<div>
+<div class="flex items-center justify-between mb-4">
+<div class="w-12 h-12 rounded-2xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed">
+<span class="material-symbols-outlined text-[28px]">psychology_alt</span>
+</div>
+<span class="px-3 py-1 rounded-full bg-tertiary-fixed-dim/40 text-on-tertiary-fixed-variant font-label-sm text-label-sm">Semua Usia</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Konsultasi Psikologi Anak</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              Layanan evaluasi kesiapan sekolah, screening tumbuh kembang dini, serta ruang konseling orang tua untuk memahami emosi dan perilaku Hiro.
+            </p>
+<div class="space-y-1.5 mb-6">
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[16px]">done</span>
+<span class="">Pemeriksaan Psikolog Anak (M.Psi)</span>
+</div>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[16px]">done</span>
+<span class="">Panduan Pola Asuh Mom &amp; Dad</span>
+</div>
+</div>
+</div>
+<a class="w-full inline-flex items-center justify-center py-2.5 rounded-full bg-surface-container-low text-on-surface hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-colors" href="https://wa.me/6285820069252?text=Hallo%20Little%20Hiro,%20saya%20ingin%20Konsultasi%20Psikologi" rel="noopener noreferrer" target="_blank">
+<span class="">Daftar Konseling</span>
+<span class="material-symbols-outlined text-[16px] ml-1.5">arrow_forward</span>
+</a>
+</div>
+<!-- 4. Stimulasi Sensori & Motorik -->
+<div class="bg-surface-container-lowest rounded-3xl p-7 shadow-[0_4px_20px_rgba(45,49,57,0.04)] flex flex-col justify-between hover:shadow-[0_12px_28px_rgba(232,122,112,0.12)] transition-all">
+<div>
+<div class="flex items-center justify-between mb-4">
+<div class="w-12 h-12 rounded-2xl bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[28px]">sports_volleyball</span>
+</div>
+<span class="px-3 py-1 rounded-full bg-secondary-fixed-dim/50 text-on-secondary-fixed-variant font-label-sm text-label-sm">6 Bulan - 4 Tahun</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Program Stimulasi Anak</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              Kegiatan sensory play berbasis eksplorasi, fine and gross motor development, serta interaksi sosial untuk melatih koordinasi tubuh dan keingintahuan alami Hiro.
+            </p>
+<div class="space-y-1.5 mb-6">
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[16px]">done</span>
+<span class="">Messy Play &amp; Texture Stations</span>
+</div>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[16px]">done</span>
+<span class="">Gym Balita &amp; Olah Keseimbangan</span>
+</div>
+</div>
+</div>
+<a class="w-full inline-flex items-center justify-center py-2.5 rounded-full bg-surface-container-low text-on-surface hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-colors" href="https://wa.me/6285820069252?text=Hallo%20Little%20Hiro,%20saya%20tertarik%20dengan%20Program%20Stimulasi" rel="noopener noreferrer" target="_blank">
+<span class="">Info Kelas Stimulasi</span>
+<span class="material-symbols-outlined text-[16px] ml-1.5">arrow_forward</span>
+</a>
+</div>
+<!-- 5. Calistung Menyenangkan -->
+<div class="bg-surface-container-lowest rounded-3xl p-7 shadow-[0_4px_20px_rgba(45,49,57,0.04)] flex flex-col justify-between hover:shadow-[0_12px_28px_rgba(232,122,112,0.12)] transition-all">
+<div>
+<div class="flex items-center justify-between mb-4">
+<div class="w-12 h-12 rounded-2xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed">
+<span class="material-symbols-outlined text-[28px]">draw</span>
+</div>
+<span class="px-3 py-1 rounded-full bg-primary-fixed-dim/40 text-on-primary-fixed-variant font-label-sm text-label-sm">4 - 7 Tahun</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Calistung Ramah Anak</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              Membaca, menulis, dan berhitung dengan metode bermain tanpa paksaan. Menumbuhkan minat baca dan logika angka dengan sukacita sejak awal.
+            </p>
+<div class="space-y-1.5 mb-6">
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[16px]">done</span>
+<span class="">Metode Multisensori Menulis</span>
+</div>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[16px]">done</span>
+<span class="">Pengenalan Konsep Pra-Matematika</span>
+</div>
+</div>
+</div>
+<a class="w-full inline-flex items-center justify-center py-2.5 rounded-full bg-surface-container-low text-on-surface hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-colors" href="https://wa.me/6285820069252?text=Hallo%20Little%20Hiro,%20saya%20tertarik%20dengan%20Program%20Calistung" rel="noopener noreferrer" target="_blank">
+<span class="">Pelajari Calistung</span>
+<span class="material-symbols-outlined text-[16px] ml-1.5">arrow_forward</span>
+</a>
+</div>
+<!-- 6. Mandarin & English -->
+<div class="bg-surface-container-lowest rounded-3xl p-7 shadow-[0_4px_20px_rgba(45,49,57,0.04)] flex flex-col justify-between hover:shadow-[0_12px_28px_rgba(232,122,112,0.12)] transition-all">
+<div>
+<div class="flex items-center justify-between mb-4">
+<div class="w-12 h-12 rounded-2xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed">
+<span class="material-symbols-outlined text-[28px]">translate</span>
+</div>
+<span class="px-3 py-1 rounded-full bg-tertiary-fixed-dim/40 text-on-tertiary-fixed-variant font-label-sm text-label-sm">3 - 7 Tahun</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Mandarin &amp; English Little Hiro</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+              Pengenalan dwibahasa interaktif melalui storytelling, lagu anak riang, dan percakapan kontekstual agar Hiro terbiasa sejak masa keemasan otak.
+            </p>
+<div class="space-y-1.5 mb-6">
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[16px]">done</span>
+<span class="">Phonics &amp; Conversational Play</span>
+</div>
+<div class="flex items-center gap-2 font-label-sm text-label-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary text-[16px]">done</span>
+<span class="">Pinyin &amp; Piktogram Menyenangkan</span>
+</div>
+</div>
+</div>
+<a class="w-full inline-flex items-center justify-center py-2.5 rounded-full bg-surface-container-low text-on-surface hover:bg-primary-container hover:text-on-primary-container font-label-md text-label-md transition-colors" href="https://wa.me/6285820069252?text=Hallo%20Little%20Hiro,%20saya%20tertarik%20dengan%20Program%20Bahasa" rel="noopener noreferrer" target="_blank">
+<span class="">Konsultasi Bahasa</span>
+<span class="material-symbols-outlined text-[16px] ml-1.5">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Recommendation Guidance Banner -->
+<div class="mt-12 p-8 rounded-3xl bg-secondary-container/40 text-on-secondary-container flex flex-col md:flex-row items-center justify-between gap-6">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-full bg-secondary text-on-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[24px]">help_center</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface mb-1">Bingung Program yang Tepat untuk Hiro?</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Jika Mom and Dad belum yakin terapi atau stimulasi apa yang sesuai, diskusikan terlebih dahulu bersama tim kami secara gratis.
+            </p>
+</div>
+</div>
+<a class="shrink-0 px-6 py-3 rounded-full bg-secondary text-on-secondary hover:bg-on-secondary-fixed-variant font-label-lg text-label-lg transition-colors" href="https://wa.me/6285820069252?text=Hallo%20Little%20Hiro,%20saya%20ingin%20tanya%20rekomendasi%20program%20untuk%20anak%20saya" rel="noopener noreferrer" target="_blank">
+          Tanya Tim Little Hiro
+        </a>
+</div>
+</div>
+</section>
+<!-- SECTION 4: MENGAPA LITTLE HIRO -->
+<section class="py-20 bg-surface-container-low" id="why">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<span class="px-3.5 py-1.5 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md uppercase tracking-wider">Keunggulan Utama</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-4 mb-4">Mengapa Memilih Little Hiro?</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          Standar pengasuhan holistik, keamanan mutlak, dan stimulasi ilmiah yang memberikan ketenangan batin bagi Mom and Dad di setiap langkah.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Feature 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl shadow-[0_4px_20px_rgba(45,49,57,0.04)]">
+<div class="w-12 h-12 rounded-2xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed mb-5">
+<span class="material-symbols-outlined text-[28px]">school</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Pendampingan Profesional</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Tim edukator berlatar belakang psikologi, pendidikan anak usia dini (PAUD), dan fisioterapi/okupasi berpengalaman yang mencintai anak-anak sepenuh hati.
+          </p>
+</div>
+<!-- Feature 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl shadow-[0_4px_20px_rgba(45,49,57,0.04)]">
+<div class="w-12 h-12 rounded-2xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed mb-5">
+<span class="material-symbols-outlined text-[28px]">visibility</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Dipantau Psikolog Anak</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Evaluasi berkala langsung oleh psikolog anak untuk memantau kematangan emosi, regulasi diri, dan deteksi dini hambatan perkembangan Hiro.
+          </p>
+</div>
+<!-- Feature 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl shadow-[0_4px_20px_rgba(45,49,57,0.04)]">
+<div class="w-12 h-12 rounded-2xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed mb-5">
+<span class="material-symbols-outlined text-[28px]">sanitizer</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Lingkungan Nyaman &amp; Higienis</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Fasilitas dirancang ergonomis dengan child-proof safety, lantai empuk anti benturan, sterilisasi mainan UV rutin, dan sirkulasi udara HEPA filter.
+          </p>
+</div>
+<!-- Feature 4 -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl shadow-[0_4px_20px_rgba(45,49,57,0.04)]">
+<div class="w-12 h-12 rounded-2xl bg-secondary-container flex items-center justify-center text-on-secondary-container mb-5">
+<span class="material-symbols-outlined text-[28px]">videocam</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">CCTV Real-Time Monitoring</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Mom and Dad dapat mengakses siaran kamera secara aman kapan saja melalui smartphone, menjamin transparansi dan ketenangan selama bekerja.
+          </p>
+</div>
+<!-- Feature 5 -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl shadow-[0_4px_20px_rgba(45,49,57,0.04)]">
+<div class="w-12 h-12 rounded-2xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed mb-5">
+<span class="material-symbols-outlined text-[28px]">hub</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Program yang Terintegrasi</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Daycare harian, terapi penanganan khusus, stimulasi motorik, dan kelas akademis berada dalam satu atap yang selaras tanpa repot berpindah lokasi.
+          </p>
+</div>
+<!-- Feature 6 -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl shadow-[0_4px_20px_rgba(45,49,57,0.04)]">
+<div class="w-12 h-12 rounded-2xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed mb-5">
+<span class="material-symbols-outlined text-[28px]">face</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Pendekatan Individual</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Kami memahami bahwa setiap Hiro memiliki kecepatan unik. Tidak ada perbandingan atau tekanan—hanya bimbingan hangat yang menghargai jati diri anak.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: GALERI & AKTIVITAS HIRO -->
+
+<!-- SECTION 6: TIM PENDAMPING HIRO -->
+<section class="py-20 bg-surface-container-low" id="tim">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<span class="px-3.5 py-1.5 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md uppercase tracking-wider">Hati di Balik Pelayanan</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-4 mb-4">Tim yang Mendampingi Hiro</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          Di balik setiap senyum dan pencapaian milestone Hiro, ada tim pengasuh berdedikasi, psikolog anak, dan terapis yang siap mendampingi dengan kesabaran tulus.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8"><!-- Team 1: Miss Ivana - Peach/Coral Petal Frame -->
+<div class="bg-surface-container-lowest rounded-3xl p-6 sm:p-7 shadow-[0_4px_20px_rgba(45,49,57,0.04)] flex flex-col justify-between text-center relative overflow-hidden group hover:shadow-[0_12px_28px_rgba(232,122,112,0.12)] transition-all duration-300">
+  <div>
+    <!-- Flower Petal Frame Container -->
+    <div class="relative w-48 h-48 mx-auto mb-6 flex items-center justify-center">
+      <!-- Flower Petals SVG Decor -->
+      <svg class="absolute inset-0 w-full h-full text-primary-fixed group-hover:scale-105 transition-transform duration-300" viewBox="0 0 200 200" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="100" cy="28" r="26" opacity="0.8"></circle>
+        <circle cx="151" cy="49" r="26" opacity="0.8"></circle>
+        <circle cx="172" cy="100" r="26" opacity="0.8"></circle>
+        <circle cx="151" cy="151" r="26" opacity="0.8"></circle>
+        <circle cx="100" cy="172" r="26" opacity="0.8"></circle>
+        <circle cx="49" cy="151" r="26" opacity="0.8"></circle>
+        <circle cx="28" cy="100" r="26" opacity="0.8"></circle>
+        <circle cx="49" cy="49" r="26" opacity="0.8"></circle>
+        <circle cx="100" cy="100" r="66" class="text-primary-container" fill="currentColor"></circle>
+      </svg>
+      <!-- Center Circular Portrait -->
+      <div class="relative w-32 h-32 rounded-full overflow-hidden shadow-md border-4 border-surface-container-lowest z-10">
+        <img class="w-full h-full object-cover" data-alt="Potret ramah seorang psikolog anak wanita Indonesia muda bernama Miss Ivana tersenyum hangat" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvV_IEKx39B2XHXmDaH_8_9od3HVEsdLnH8ydF6xqOpMaHyMoeavGWI6Ff1AFgvTollL_2xkz0E5eAYHYNAXGYt1h572f2iGz6NaVfrQcAhtxdyMWAyqm-O-zByYekkJ8esfelt5I2XdY9FhW3P521ViCu1i7cyoXxNLhVNYRqg2DfYJEuJTLGIPyIipF_3SzEjz9jLGhtzQLJ-_I0oeXdqOsQhBD2SbshJ8vqoIWj">
+      </div>
+      <span class="absolute -bottom-2 z-20 px-3 py-1 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm font-semibold shadow-sm">Psikolog Anak</span>
+    </div>
+    <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mt-2">Miss Ivana, M.Psi., Psikolog</h3>
+    <p class="font-label-md text-label-md text-primary font-medium mt-1 mb-3">Head of Child Assessment &amp; Psychology</p>
+    <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4 text-left">
+      Spesialis dalam asesmen kesiapan perkembangan, deteksi keterlambatan tumbuh kembang anak usia dini, dan konsultasi pengasuhan responsif bagi Mom and Dad.
+    </p>
+  </div>
+  <div class="pt-4 border-t border-surface-container-high text-left">
+    <span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1.5">
+      <span class="material-symbols-outlined text-secondary text-[16px]">verified</span>
+      <span class="">Sertifikasi Ikatan Psikolog Klinis Indonesia</span>
+    </span>
+  </div>
+</div>
+
+<!-- Team 2: Miss Sarah - Sage Green Petal Frame -->
+<div class="bg-surface-container-lowest rounded-3xl p-6 sm:p-7 shadow-[0_4px_20px_rgba(45,49,57,0.04)] flex flex-col justify-between text-center relative overflow-hidden group hover:shadow-[0_12px_28px_rgba(232,122,112,0.12)] transition-all duration-300">
+  <div>
+    <!-- Flower Petal Frame Container -->
+    <div class="relative w-48 h-48 mx-auto mb-6 flex items-center justify-center">
+      <!-- Flower Petals SVG Decor -->
+      <svg class="absolute inset-0 w-full h-full text-secondary-fixed group-hover:scale-105 transition-transform duration-300" viewBox="0 0 200 200" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="100" cy="28" r="26" opacity="0.8"></circle>
+        <circle cx="151" cy="49" r="26" opacity="0.8"></circle>
+        <circle cx="172" cy="100" r="26" opacity="0.8"></circle>
+        <circle cx="151" cy="151" r="26" opacity="0.8"></circle>
+        <circle cx="100" cy="172" r="26" opacity="0.8"></circle>
+        <circle cx="49" cy="151" r="26" opacity="0.8"></circle>
+        <circle cx="28" cy="100" r="26" opacity="0.8"></circle>
+        <circle cx="49" cy="49" r="26" opacity="0.8"></circle>
+        <circle cx="100" cy="100" r="66" class="text-secondary-container" fill="currentColor"></circle>
+      </svg>
+      <!-- Center Circular Portrait -->
+      <div class="relative w-32 h-32 rounded-full overflow-hidden shadow-md border-4 border-surface-container-lowest z-10">
+        <img class="w-full h-full object-cover" data-alt="Potret ramah terapis okupasi dan integrasi sensori anak wanita ceria dengan senyum manis" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-_WxyAMo1qe0ReUmu_bjrTCAS_P52ASWKeQLYHdPSBtzwAVh7PQ-2ckniFRln04EznyXwalXWtjkpQWDXT3W46vVJJmqGO4N8dQybQtzc55db0n0_98Y9KbWQHVzMXGXeSp7UEgZ6NS3XhlyZ9WH03eNmI8UnLEyJPZM9lUaiXiAR9djVsgagBUCFSSzX4-iz5WTuW-2G1igs1LaktdRM7gD_PRCTL7cbb4EvZAc4">
+      </div>
+      <span class="absolute -bottom-2 z-20 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-semibold shadow-sm">Terapis Okupasi &amp; SI</span>
+    </div>
+    <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mt-2">Miss Sarah, S.Tr.Kes.</h3>
+    <p class="font-label-md text-label-md text-secondary font-medium mt-1 mb-3">Senior Occupational &amp; Sensory Therapist</p>
+    <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4 text-left">
+      Ahli dalam penanganan integrasi sensori, motorik halus, dan pembentukan kebiasaan fokus pada balita dengan pendekatan ramah bermain tanpa paksaan.
+    </p>
+  </div>
+  <div class="pt-4 border-t border-surface-container-high text-left">
+    <span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1.5">
+      <span class="material-symbols-outlined text-secondary text-[16px]">verified</span>
+      <span class="">Surat Tanda Registrasi Terapis Okupasi (STR)</span>
+    </span>
+  </div>
+</div>
+
+<!-- Team 3: Miss Devi - Buttercup/Warm Honey Petal Frame -->
+<div class="bg-surface-container-lowest rounded-3xl p-6 sm:p-7 shadow-[0_4px_20px_rgba(45,49,57,0.04)] flex flex-col justify-between text-center relative overflow-hidden group hover:shadow-[0_12px_28px_rgba(232,122,112,0.12)] transition-all duration-300">
+  <div>
+    <!-- Flower Petal Frame Container -->
+    <div class="relative w-48 h-48 mx-auto mb-6 flex items-center justify-center">
+      <!-- Flower Petals SVG Decor -->
+      <svg class="absolute inset-0 w-full h-full text-tertiary-fixed group-hover:scale-105 transition-transform duration-300" viewBox="0 0 200 200" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="100" cy="28" r="26" opacity="0.8"></circle>
+        <circle cx="151" cy="49" r="26" opacity="0.8"></circle>
+        <circle cx="172" cy="100" r="26" opacity="0.8"></circle>
+        <circle cx="151" cy="151" r="26" opacity="0.8"></circle>
+        <circle cx="100" cy="172" r="26" opacity="0.8"></circle>
+        <circle cx="49" cy="151" r="26" opacity="0.8"></circle>
+        <circle cx="28" cy="100" r="26" opacity="0.8"></circle>
+        <circle cx="49" cy="49" r="26" opacity="0.8"></circle>
+        <circle cx="100" cy="100" r="66" class="text-tertiary-fixed-dim/40" fill="currentColor"></circle>
+      </svg>
+      <!-- Center Circular Portrait -->
+      <div class="relative w-32 h-32 rounded-full overflow-hidden shadow-md border-4 border-surface-container-lowest z-10">
+        <img class="w-full h-full object-cover" data-alt="Potret pengasuh dan edukator anak usia dini wanita hangat dan bersahabat memegang buku cerita" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHrEo4EzgBuqrvY6g2245mfKIA2gEuSavgYvNIHAg6dDzTKdjCA5lh7erhpBs1pXvL6armDICtG0xRSJMwNq_Xg2iOTnuiJx_rUll_PQnQE9dCy0RNPxE6JjiSbbj_5MjPNA6H9m-jZiqAG3U4C4XUkU1OJB_7RleTSQVb6WSHZe7sUI7_MeT5nOsdGB2zLtD7ck8gbKHGQAKYVZQDOYhCCDoPH61Fs6rS4POnimn6">
+      </div>
+      <span class="absolute -bottom-2 z-20 px-3 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold shadow-sm">Lead Daycare Educator</span>
+    </div>
+    <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mt-2">Miss Devi, S.Pd.</h3>
+    <p class="font-label-md text-label-md text-tertiary font-medium mt-1 mb-3">Early Childhood Development Specialist</p>
+    <p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4 text-left">
+      Memimpin rutinitas harian anak, program calistung menyenangkan, serta memastikan kesejahteraan emosional Hiro selalu terpenuhi sepanjang hari.
+    </p>
+  </div>
+  <div class="pt-4 border-t border-surface-container-high text-left">
+    <span class="font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1.5">
+      <span class="material-symbols-outlined text-secondary text-[16px]">verified</span>
+      <span class="">Bersertifikat CPR &amp; Pertolongan Pertama Anak</span>
+    </span>
+  </div>
+</div></div>
+<!-- Trust Note Footer -->
+<div class="mt-12 text-center">
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Semua pengasuh dan staf Little Hiro menjalani background check menyeluruh dan pelatihan berkala dalam pengasuhan responsif.
+        </p>
+</div>
+</div>
+</section>
+<!-- SECTION 7: FASILITAS CENTRE -->
+<section class="py-20 bg-surface" id="fasilitas">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<span class="px-3.5 py-1.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md uppercase tracking-wider">Fasilitas Nyaman</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-4 mb-4">Ruang yang Aman untuk Bertumbuh</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          Dirancang dengan cermat mengikuti standar keselamatan anak usia dini internasional agar Hiro merasa nyaman seperti di rumah sendiri.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Fasilitas 1 -->
+<div class="bg-surface-container-low rounded-3xl p-6 flex flex-col justify-between">
+<div>
+<div class="h-48 rounded-2xl overflow-hidden mb-4 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Kamar tidur anak daycare yang tenang dan nyaman dengan dipan rendah kayu minimalis, sprei katun lembut warna pastel, pencahayaan redup hangat, dan air purifier di Little Hiro Daycare Gading Serpong." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOjO_oLqUIqmkCRGMnkgnIOoJH3CotD3r74gGZMLsra7SUPLKUhCtfX1snlXnbVqg6TdfELyXWoPaYaQizewtC8beOH556sGLAbNgMmtlUI_iMusxYHjPFZoICDqdDkMuNLZf9f7jhw_Q9q515vwRr7euq7BabSdWTKU2pmgJVoUNHGZIwcdvcviG2FpmNKWX6beEl8Fz4q_AC3ZGZwlYlXiYjvjcsgmnc5MzqJwHe">
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Rest Pods &amp; Nap Sanctuary</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Kamar tidur yang tenang dengan pencahayaan hangat, kasur hipoalergenik tersanitasi, serta pengawasan pernafasan anak saat tidur.
+            </p>
+</div>
+</div>
+<!-- Fasilitas 2 -->
+<div class="bg-surface-container-low rounded-3xl p-6 flex flex-col justify-between">
+<div>
+<div class="h-48 rounded-2xl overflow-hidden mb-4 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Ruang terapi sensori integrasi yang lapang dengan matras lembut dinding pengaman empuk ayunan hammock kain lembut dan tangga busa panjat balita di Little Hiro Centre Gading Serpong." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzn_SwZYzt1Ukr78p_8f963j-0DT0-onS9bacRsIp_QLGOk4JweQQYxXiTqATvWnGjOOkKJbRv3-9LkVwcYz0JYjlFt4zELsuEkgQpEX1bvvyALRkGtB8w_6cvwgEQAAjRPiaCLGJ6hWFVYGlx2uMlIMg8fmULKxfupidj9CCIOi251C1bLP5Z-i7dIw1GTpcGHTKlhcFjafG-knQ4lg1TsXjWN7HNI_oUKFl_RnAg">
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Ruang Terapi Sensori &amp; SI</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Dilengkapi perlengkapan integrasi sensori komprehensif, ayunan vestibular, bola bobath, dan tactile walls berstandar klinis.
+            </p>
+</div>
+</div>
+<!-- Fasilitas 3 -->
+<div class="bg-surface-container-low rounded-3xl p-6 flex flex-col justify-between">
+<div>
+<div class="h-48 rounded-2xl overflow-hidden mb-4 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Area bermain indoor playground ramah anak dengan mandi bola warna pastel lembut seluncuran kayu halus tumpul dan rumput sintetis higienis di Little Hiro Daycare Tangerang." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC97ISc4hWHFShtngna4FzV0cILpYH1-pKFfAa-Ik5tlW75vgd4EmVZV76HGd2KWVBMYxM5AS5lrfwMSXXlXsD89ZTU5pG7WkVHlf1zE1fopgcf49hX9Ra7Ukvob_GYyhPM0H_bxfc-AmB54nTLPRhIlZ8NpBI-DynP-4R4tsxPo9WN7b9cNMD0thDc860pTPJhWOCjZQLkgMMR8pzHEkMXNMxxElmbe1EMiDWitDlc">
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Indoor Playground Higienis</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Area mandi bola higienis tanpa debu, seluncuran sudut tumpul, dan matras peredam benturan untuk kebebasan gerak Hiro.
+            </p>
+</div>
+</div>
+<!-- Fasilitas 4 -->
+<div class="bg-surface-container-low rounded-3xl p-6 flex flex-col justify-between">
+<div>
+<div class="h-48 rounded-2xl overflow-hidden mb-4 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Pojok baca anak bernuansa kayu terang skandinavia dengan bantal duduk empuk karpet rajut lembut dan rak buku setinggi balita di Little Hiro Daycare Gading Serpong." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBg9v3kGENcM3NoYBpygo0UicE19nhct_VJk_HxCJqS0dSlkQglPx_NPFUtD8KDXK42cG25Lh1t9ArVPtyZykrPYmb6iArvwstov8GpvsPC_sVyXD3VCN3eqSG1pToQWFibKgqgo_ua8d4GfO3d9c_TnaDB88K3pIpOC86bcJQBhOAeOH012livxc2ZKXO3i0TE07nIlU7QLKhfHmAw0lCure73BW00swrzD8vi3NpC">
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Pojok Baca &amp; Literasi Hiro</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Koleksi buku bergambar ramah anak dari berbagai genre untuk menumbuhkan cinta literasi sejak dini dengan suasana damai.
+            </p>
+</div>
+</div>
+<!-- Fasilitas 5 -->
+<div class="bg-surface-container-low rounded-3xl p-6 flex flex-col justify-between">
+<div>
+<div class="h-48 rounded-2xl overflow-hidden mb-4 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Ruang konsultasi psikologi anak yang privat dan nyaman dengan sofa empuk nuansa krem pastel dan meja observasi ramah anak di Little Hiro Centre Gading Serpong." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCb85VpMfkzJKqCyDcLnjmnqWmhoMyhbj0VxmmB9VLMacmo3fELuwGfAnbAtv3UKPbGxX4a_2zx54EhlBoT4wGAw_JoU5pZW8IIZtreZWdzRl6qaWxQQLDzgR19rlW_MNaruHRBZ-BaE1ioXz0ZD42wNoa-VsGySLK1vgpjcxFIdnARUCeJAPLhzGCWGCyF0PfsbcUwIxcdpRqSCCS-alVI6xbCwPso5w-StEkdgYLC">
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">Ruang Konsultasi Privat</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Ruang asesmen psikologi kedap suara dan nyaman untuk menjaga kerahasiaan diskusi perkembangan antara Mom and Dad dan psikolog.
+            </p>
+</div>
+</div>
+<!-- Fasilitas 6 -->
+<div class="bg-surface-container-low rounded-3xl p-6 flex flex-col justify-between">
+<div>
+<div class="h-48 rounded-2xl overflow-hidden mb-4 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Peralatan filtrasi udara modern HEPA filter terpasang di dinding dan kamera CCTV pintar beresolusi tinggi di sudut ruangan Little Hiro Daycare yang terang higienis." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCG1Swu2SFLvnYsgDuEAsVFPVMMMe3FO2PxWHEPvvdIQHxQ3n0MLoUprXdhqX59iQ7dekaLFCCdvB8lvdbCziiDofiS7-3Tdrtk7taHGBOz4lfCy2ZhhcJL1gz8QpLn1DS--yW8Zk3s3AntkAZDCrKOvgLGhBw5yZrd8pN8e5S2x0hlN1egF8odxQ9hNZu_K2Po8saW3CR2sYtxgdzWGsOqrQhOXg4mE8arKyUocHiN">
+</div>
+<h3 class="font-title-md text-title-md text-on-surface mb-2">HEPA Air Filtration &amp; Sanitasi</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Pemurni udara medis HEPA aktif 24 jam untuk meminimalisir penularan virus, debu, dan alergen, demi kesehatan paru-paru Hiro.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 8: TESTIMONI MOM AND DAD -->
+<section class="py-20 bg-surface-container-low" id="testimoni">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<span class="px-3.5 py-1.5 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-md text-label-md uppercase tracking-wider">Kisah Nyata</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-4 mb-4">Cerita dari Mom and Dad</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          Ketenangan pikiran Mom and Dad selama bekerja dan kebahagiaan Hiro setiap pulang ke rumah adalah bukti dedikasi kami.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Testimoni 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl shadow-[0_4px_20px_rgba(45,49,57,0.04)] flex flex-col justify-between">
+<div>
+<!-- Stars -->
+<div class="flex items-center gap-1 text-tertiary-container mb-4">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic mb-6 leading-relaxed">
+              "Sejak bergabung di Little Hiro, kami melihat banyak perubahan positif dalam proses bicara dan kemandirian Hiro. Mom and Dad merasa sangat tenang saat bekerja karena update harian yang detail dan CCTV yang jernih."
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-surface-container-high">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center font-label-lg text-label-lg text-on-primary-fixed font-bold">
+              RD
+            </div>
+<div>
+<p class="font-label-lg text-label-lg font-bold text-on-surface">Rafael's Dad</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Gading Serpong, Tangerang</p>
+</div>
+</div>
+</div>
+<!-- Testimoni 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl shadow-[0_4px_20px_rgba(45,49,57,0.04)] flex flex-col justify-between">
+<div>
+<!-- Stars -->
+<div class="flex items-center gap-1 text-tertiary-container mb-4">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic mb-6 leading-relaxed">
+              "Ruangannya sangat bersih, gurunya luar biasa sabar, dan terapis wicaranya sangat komunikatif. Terapi wicara di sini sangat membantu perkembangan artikulasi Hiro dalam 2 bulan saja. Terima kasih banyak Little Hiro!"
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-surface-container-high">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center font-label-lg text-label-lg text-on-secondary-fixed font-bold">
+              KM
+            </div>
+<div>
+<p class="font-label-lg text-label-lg font-bold text-on-surface">Kenzo's Mom</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">BSD City, Tangerang Selatan</p>
+</div>
+</div>
+</div>
+<!-- Testimoni 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-3xl shadow-[0_4px_20px_rgba(45,49,57,0.04)] flex flex-col justify-between">
+<div>
+<!-- Stars -->
+<div class="flex items-center gap-1 text-tertiary-container mb-4">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic mb-6 leading-relaxed">
+              "Pendekatannya sangat hangat dan tidak memaksakan. Hiro yang awalnya pemalu kini selalu antusias berangkat ke Little Hiro setiap pagi. Ia jadi lebih berani menyapa teman sebaya dan mau makan variasi sayur."
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-4 border-t border-surface-container-high">
+<div class="w-10 h-10 rounded-full bg-tertiary-fixed flex items-center justify-center font-label-lg text-label-lg text-on-tertiary-fixed font-bold">
+              AM
+            </div>
+<div>
+<p class="font-label-lg text-label-lg font-bold text-on-surface">Alana's Mom</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Alam Sutera, Tangerang</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 9: FAQ INTERAKTIF -->
+<section class="py-20 bg-surface">
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<span class="px-3.5 py-1.5 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md uppercase tracking-wider">Pertanyaan Umum</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-4 mb-4">Pertanyaan yang Sering Diajukan</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+          Temukan jawaban seputar usia, operasional, trial session, dan makanan di Little Hiro.
+        </p>
+</div>
+<!-- Accordion Container -->
+<div class="space-y-4" id="faq-accordion">
+<!-- Q1 -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm">
+<button class="faq-toggle w-full px-6 py-5 flex items-center justify-between text-left transition-colors hover:bg-surface-container-low">
+<span class="font-title-md text-title-md text-on-surface">Berapa rentang usia Hiro yang dapat dititipkan di Daycare?</span>
+<span class="material-symbols-outlined text-on-surface-variant transition-transform duration-200 shrink-0">expand_more</span>
+</button>
+<div class="faq-content hidden px-6 pb-5 pt-1 text-on-surface-variant font-body-md text-body-md">
+            Little Hiro menerima Hiro mulai dari usia 3 bulan (Infant Program) hingga 6 tahun (Preschool / Kindergarten). Kelas dibagi dalam kelompok usia spesifik dengan kurikulum dan fasilitas tempat tidur terpisah agar Hiro mendapatkan stimulasi yang tepat sasaran.
+          </div>
+</div>
+<!-- Q2 -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm">
+<button class="faq-toggle w-full px-6 py-5 flex items-center justify-between text-left transition-colors hover:bg-surface-container-low">
+<span class="font-title-md text-title-md text-on-surface">Bagaimana jam operasional Little Hiro?</span>
+<span class="material-symbols-outlined text-on-surface-variant transition-transform duration-200 shrink-0">expand_more</span>
+</button>
+<div class="faq-content hidden px-6 pb-5 pt-1 text-on-surface-variant font-body-md text-body-md">
+            Jam operasional kami adalah hari Senin - Jumat pukul 07.30 - 18.00 WIB, dan hari Sabtu pukul 08.00 - 14.00 WIB (untuk kelas stimulasi, terapi, dan konsultasi psikologi). Kami juga menyediakan opsi penjemputan fleksibel sesuai kebutuhan Mom and Dad.
+          </div>
+</div>
+<!-- Q3 -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm">
+<button class="faq-toggle w-full px-6 py-5 flex items-center justify-between text-left transition-colors hover:bg-surface-container-low">
+<span class="font-title-md text-title-md text-on-surface">Apakah Mom and Dad bisa memantau CCTV secara langsung?</span>
+<span class="material-symbols-outlined text-on-surface-variant transition-transform duration-200 shrink-0">expand_more</span>
+</button>
+<div class="faq-content hidden px-6 pb-5 pt-1 text-on-surface-variant font-body-md text-body-md">
+            Ya! Mom and Dad diberikan akses aman ke sistem CCTV real-time melalui aplikasi mobile resmi kami selama Hiro berada di Little Hiro. Selain itu, guru pendamping memberikan laporan milestone, jadwal makan, dan durasi tidur secara digital setiap sore.
+          </div>
+</div>
+<!-- Q4 -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm">
+<button class="faq-toggle w-full px-6 py-5 flex items-center justify-between text-left transition-colors hover:bg-surface-container-low">
+<span class="font-title-md text-title-md text-on-surface">Apakah ada sesi uji coba (Trial Session) sebelum mendaftar?</span>
+<span class="material-symbols-outlined text-on-surface-variant transition-transform duration-200 shrink-0">expand_more</span>
+</button>
+<div class="faq-content hidden px-6 pb-5 pt-1 text-on-surface-variant font-body-md text-body-md">
+            Tentu saja. Kami sangat menganjurkan Mom and Dad untuk mengikuti Trial Session atau School Tour. Melalui sesi ini, Hiro dapat beradaptasi dengan lingkungan kami, dan Mom and Dad dapat berdiskusi langsung dengan tim edukator serta terapis kami.
+          </div>
+</div>
+<!-- Q5 -->
+<div class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm">
+<button class="faq-toggle w-full px-6 py-5 flex items-center justify-between text-left transition-colors hover:bg-surface-container-low">
+<span class="font-title-md text-title-md text-on-surface">Bagaimana standar kebersihan makanan dan nutrisi di Little Hiro?</span>
+<span class="material-symbols-outlined text-on-surface-variant transition-transform duration-200 shrink-0">expand_more</span>
+</button>
+<div class="faq-content hidden px-6 pb-5 pt-1 text-on-surface-variant font-body-md text-body-md">
+            Makanan yang disajikan disusun bersama ahli gizi anak dengan menu variatif setiap minggunya, bebas MSG berlebih, dan disesuaikan dengan riwayat alergi setiap Hiro. Ruang makan dan peralatan makan selalu disterilisasi dengan mesin UV otomatis.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 10: LOKASI & KONTAK & FINAL CALL TO ACTION -->
+<section class="py-20 bg-surface-container-low relative overflow-hidden" id="kontak">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Big Warm Banner CTA -->
+<div class="relative rounded-3xl bg-primary-container text-on-primary-container p-8 sm:p-12 mb-16 overflow-hidden shadow-[0_12px_28px_rgba(232,122,112,0.22)]">
+<!-- Subtle background shapes -->
+<div class="absolute -right-12 -top-12 w-64 h-64 bg-on-primary-container/10 rounded-full blur-2xl"></div>
+<div class="absolute -left-12 -bottom-12 w-64 h-64 bg-surface/20 rounded-full blur-2xl"></div>
+<div class="relative z-10 max-w-2xl mx-auto text-center">
+<span class="px-3.5 py-1.5 rounded-full bg-surface-container-lowest text-primary font-label-md text-label-md uppercase tracking-wider inline-block mb-4">Mulai Perjalanan Hiro Bersama Kami</span>
+<h2 class="font-headline-lg text-headline-lg text-on-primary-container mb-4">Masih Bingung Memilih Daycare untuk Hiro?</h2>
+<p class="font-body-lg text-body-lg text-on-primary-container/90 mb-8 leading-relaxed">
+            Yuk, kenali Little Hiro lebih dekat dan diskusikan kebutuhan spesifik Hiro bersama tim kami. Kami siap menyambut Mom and Dad untuk kunjungan &amp; konsultasi personal hangat.
+          </p>
+<div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+<a class="w-full sm:w-auto px-8 py-4 rounded-full bg-on-primary-container text-on-primary font-label-lg text-label-lg shadow-lg hover:bg-on-primary hover:text-on-primary-container transition-all flex items-center justify-center gap-2" href="https://wa.me/6285820069252?text=Hallo%20Little%20Hiro,%20saya%20Mom/Dad%20ingin%20berkonsultasi" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span class="">Chat via WhatsApp (+62 858-2006-9252)</span>
+</a>
+<a class="w-full sm:w-auto px-6 py-4 rounded-full bg-surface-container-lowest text-on-surface font-label-lg text-label-lg hover:bg-surface-container transition-all flex items-center justify-center gap-2" href="https://wa.me/6285820069252?text=Hallo%20Little%20Hiro,%20saya%20ingin%20menjadwalkan%20School%20Tour" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[20px]">calendar_month</span>
+<span class="">Jadwalkan School Tour</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Location & Contact Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+<!-- Details Card -->
+<div class="lg:col-span-5 bg-surface-container-lowest p-8 rounded-3xl shadow-[0_4px_20px_rgba(45,49,57,0.04)] flex flex-col justify-between">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-6">Little Hiro Daycare &amp; Development Centre</h3>
+<div class="space-y-6">
+<div class="flex items-start gap-3.5">
+<div class="w-10 h-10 rounded-xl bg-primary-fixed flex items-center justify-center text-on-primary-fixed shrink-0">
+<span class="material-symbols-outlined text-[20px]">pin_drop</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface">Alamat Centre</p>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">
+                    Ruko Arcadia Grande, Gading Serpong, Kelapa Dua, Tangerang, Banten 15810
+                  </p>
+</div>
+</div>
+<div class="flex items-start gap-3.5">
+<div class="w-10 h-10 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed shrink-0">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface">Jam Operasional</p>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">
+                    Senin - Jumat: 07.30 - 18.00 WIB<br>
+                    Sabtu: 08.00 - 14.00 WIB (Terapi &amp; Kelas Khusus)
+                  </p>
+</div>
+</div>
+<div class="flex items-start gap-3.5">
+<div class="w-10 h-10 rounded-xl bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed shrink-0">
+<span class="material-symbols-outlined text-[20px]">call</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface">WhatsApp Resmi</p>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">
+<a class="hover:text-primary transition-colors font-medium" href="https://wa.me/6285820069252">+62 858-2006-9252</a>
+</p>
+</div>
+</div>
+<div class="flex items-start gap-3.5">
+<div class="w-10 h-10 rounded-xl bg-secondary-container flex items-center justify-center text-on-secondary-container shrink-0">
+<span class="material-symbols-outlined text-[20px]">photo_camera</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface">Media Sosial</p>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">
+                    Instagram: <a class="hover:text-primary transition-colors font-medium" href="https://instagram.com/littlehirodaycare" rel="noopener noreferrer" target="_blank">@littlehirodaycare</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="pt-6 border-t border-surface-container-high mt-8">
+<span class="font-label-sm text-label-sm text-on-surface-variant">
+              Dekat dengan area perumahan utama Gading Serpong, BSD City, dan Alam Sutera. Akses parkir luas &amp; aman untuk drop-off Hiro.
+            </span>
+</div>
+</div>
+<!-- Location Map View -->
+<div class="lg:col-span-7 bg-surface-container-lowest rounded-3xl overflow-hidden shadow-[0_4px_20px_rgba(45,49,57,0.04)] min-h-[380px] relative flex flex-col">
+<div class="w-full flex-1 bg-cover bg-center min-h-[340px]" data-location="Ruko Arcadia Grande, Gading Serpong, Tangerang" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAOcVyawkM4BzZdFyaMUb8A6S-uT8sqdYL-ojzOFJ7jx6Wt8R_QU6ivOSEpE-VDrW5xCHc3HBPHzEPOUZmDdqrd8EVt6XhltwA2UzIKkNG46CGN3sk_fzBEBBJh_lQg7CNm1fDyLPO6ZBorSkUXqpO9H07y-F7XIB8dubNsrwfkbf8B5c9fDLZM624xNJOpLu07DrkBqx7O25DKIMJoE6CqxIwvTLXwvWsDxEnkNlr8')">
+<!-- Map overlay pin badge -->
+<div class="absolute top-6 left-6 bg-surface-container-lowest/95 backdrop-blur-md p-4 rounded-2xl shadow-md max-w-xs">
+<div class="flex items-center gap-2 text-primary font-bold font-title-md text-title-md mb-1">
+<span class="material-symbols-outlined text-[20px]">location_on</span>
+<span class="">Little Hiro Daycare</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Ruko Arcadia Grande, Gading Serpong</p>
+<div class="mt-3">
+<a class="inline-flex items-center gap-1.5 font-label-md text-label-md text-secondary hover:underline" href="https://maps.google.com/?q=Ruko+Arcadia+Grande+Gading+Serpong" rel="noopener noreferrer" target="_blank">
+<span class="">Buka di Google Maps</span>
+<span class="material-symbols-outlined text-[14px]">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive JavaScript for FAQ & Gallery Tabs -->
+<script>
+    // FAQ Accordion functionality
+    document.querySelectorAll('.faq-toggle').forEach(button => {
+      button.addEventListener('click', () => {
+        const content = button.nextElementSibling;
+        const icon = button.querySelector('.material-symbols-outlined');
+        const isOpen = !content.classList.contains('hidden');
+        
+        // Close all first
+        document.querySelectorAll('.faq-content').forEach(c => c.classList.add('hidden'));
+        document.querySelectorAll('.faq-toggle .material-symbols-outlined').forEach(i => i.style.transform = 'rotate(0deg)');
+        
+        if (!isOpen) {
+          content.classList.remove('hidden');
+          icon.style.transform = 'rotate(180deg)';
+        }
+      });
+    });
+
+    // Gallery Category Filter Tabs
+    const filterButtons = document.querySelectorAll('#gallery-tabs .gal-btn');
+    const galleryItems = document.querySelectorAll('#gallery-grid .gallery-item');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Remove active styles from all buttons
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-primary-container', 'text-on-primary-container');
+          b.classList.add('text-on-surface-variant');
+        });
+        
+        // Set active style
+        btn.classList.add('bg-primary-container', 'text-on-primary-container');
+        btn.classList.remove('text-on-surface-variant');
+
+        const cat = btn.getAttribute('data-cat');
+
+        galleryItems.forEach(item => {
+          if (cat === 'all' || item.classList.contains('cat-' + cat)) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</div></main><div class="fixed bottom-6 right-6 z-50"><a class="group flex items-center gap-3 px-4 py-3 rounded-full bg-surface-container-lowest text-on-surface shadow-[0_10px_24px_rgba(45,49,57,0.12),0_2px_6px_rgba(45,49,57,0.04)] hover:shadow-[0_12px_28px_rgba(232,122,112,0.22)] transition-all transform hover:-translate-y-1" href="https://wa.me/6285820069252?text=Hallo%20Little%20Hiro,%20saya%20Mom/Dad%20ingin%20berkonsultasi." rel="noopener noreferrer" target="_blank"><div class="relative flex items-center justify-center w-10 h-10 rounded-full bg-secondary text-on-secondary"><span class="material-symbols-outlined text-[22px]">forum</span><span class="absolute -top-0.5 -right-0.5 flex h-3 w-3"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-secondary-fixed-dim opacity-75"></span><span class="relative inline-flex rounded-full h-3 w-3 bg-secondary"></span></span></div><div class="hidden md:flex flex-col text-left pr-2"><span class="font-label-md text-label-md text-on-surface">Chat dengan Little Hiro</span><span class="font-label-sm text-label-sm text-secondary font-medium">Online &amp; Respon Cepat</span></div></a></div><footer class="w-full bg-surface-container-low text-on-surface-variant pt-16 pb-12 mt-16 shadow-[0_-1px_12px_rgba(45,49,57,0.02)]"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12"><div class="space-y-4"><div class="flex items-center gap-3"><img alt="Little Hiro Daycare Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Vt0fIzPPrfvB9mq_-G9fmlRnGVu4mLBq4KsLXdK9hKDGJTaFZ6t0KMCd5QcFQ1G3A2G17Nuz0U4MLLpuckui0AP3eIRgj_4konQis8xfZ_rQYD7TQTko2IrUzxUzIYViAU6KLEWN3vw_dasYf1vVHlmKGaFIiPJCioB1CGVn1UilzQYoAj6LkZ2Oj168Zxby6H7ujta0QvziG4GowbSGSAv44FXg-HHubYayOiBFxFmQ"><span class="font-title-md text-title-md text-on-surface">Little Hiro</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Little Hiro Daycare &amp; Development Centre — Tempat Hiro bertumbuh, belajar, dan berkembang.</p><div class="pt-2 flex items-center gap-3"><span class="inline-flex items-center px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm"><span class="material-symbols-outlined text-[14px] mr-1">verified</span> Terakreditasi Ramah Anak</span></div></div><div><div class="font-title-md text-title-md text-on-surface mb-4">Navigasi Cepat</div><ul class="space-y-2 font-body-sm text-body-sm"><li class=""><a class="hover:text-primary transition-colors" data-path="home" href="#">Home</a></li><li class=""><a class="hover:text-primary transition-colors" data-path="tentang" href="#">Tentang Kami</a></li><li class=""><a class="hover:text-primary transition-colors" data-path="program-layanan" href="#">Program &amp; Layanan</a></li><li class=""><a class="hover:text-primary transition-colors" data-path="tim" href="#">Tim Pengasuh &amp; Edukator</a></li><li class=""><a class="hover:text-primary transition-colors" data-path="fasilitas" href="#">Fasilitas Centre</a></li><li></li><li class=""><a class="hover:text-primary transition-colors" data-path="testimoni" href="#">Testimoni Orang Tua</a></li><li class=""><a class="hover:text-primary transition-colors" data-path="kontak" href="#">Lokasi &amp; Kontak</a></li></ul></div><div><div class="font-title-md text-title-md text-on-surface mb-4">Hubungi Kami</div><div class="space-y-3 font-body-sm text-body-sm"><div class="flex items-start gap-2.5"><span class="material-symbols-outlined text-primary text-[18px] shrink-0 mt-0.5">pin_drop</span><span class="">Ruko Arcadia Grande, Gading Serpong, Tangerang</span></div><div class="flex items-center gap-2.5"><span class="material-symbols-outlined text-secondary text-[18px] shrink-0">call</span><a class="hover:text-primary transition-colors" href="https://wa.me/6285820069252">+62 858-2006-9252</a></div><div class="flex items-center gap-2.5"><span class="material-symbols-outlined text-primary text-[18px] shrink-0">alternate_email</span><span class="hover:text-primary transition-colors">@littlehirodaycare</span></div><div class="flex items-center gap-2.5"><span class="material-symbols-outlined text-tertiary text-[18px] shrink-0">schedule</span><span class="">Senin - Sabtu: 07.30 - 18.00 WIB</span></div></div></div><div><div class="font-title-md text-title-md text-on-surface mb-4">Kunjungan Daycare</div><p class="font-body-sm text-body-sm mb-4 leading-relaxed">Jadwalkan school tour dan konsultasi personal bersama spesialis tumbuh kembang kami.</p><a class="inline-flex items-center justify-center w-full px-4 py-2.5 rounded-full bg-secondary text-on-secondary font-label-md text-label-md hover:bg-on-secondary-fixed-variant transition-colors" href="https://wa.me/6285820069252?text=Hallo%20Little%20Hiro,%20saya%20ingin%20menjadwalkan%20visit." rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[16px] mr-2">calendar_month</span>Jadwalkan Visit</a></div></div><div class="pt-8 mt-4 flex flex-col sm:flex-row items-center justify-between gap-4 font-label-sm text-label-sm text-on-surface-variant"><p class="">© 2026 Little Hiro Daycare &amp; Development Centre. All rights reserved.</p><div class="flex items-center gap-6"><span class="text-secondary font-medium">Gading Serpong, Tangerang</span></div></div></div></footer>
+
+</body></html>
